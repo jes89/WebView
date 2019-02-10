@@ -1,0 +1,26 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "expo": "^31.0.2",
+    "expo-firebase-messaging": "^1.0.0-rc.5",
+    "firebase": "^5.7.1",
+    "pubnub": "^4.21.6",
+    "pubnub-react": "^1.2.0",
+    "react": "16.5.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-31.0.0.tar.gz",
+    "react-native-device-info": "^0.24.3",
+    "react-native-firebase": "^5.1.1",
+    "react-native-push-notification": "^3.1.2"
+  },
+  "devDependencies": {
+    "babel-preset-expo": "^5.0.0"
+  },
+  "private": true
+}
